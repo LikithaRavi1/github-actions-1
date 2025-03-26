@@ -9,10 +9,10 @@ jobs:
          - name: checkout repo
            uses: actions/checkout@v4
 
-         - name: Welcome Message
+         - name: list and read files
            run: | 
             echo "My first Github Actions workflow"
-            ls
+            ls -ltra
             cat README.md 
             
          - name: Generate ASCII Artwork
