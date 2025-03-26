@@ -19,7 +19,7 @@ jobs:
            run: grep -i "dragan" dragan.txt
 
          - name: read file
-           run: dragan.txt 
+           run: cat dragan.txt 
 
          - name: list repo files
            run: ls -ltra
